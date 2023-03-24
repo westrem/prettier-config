@@ -1,0 +1,26 @@
+// List of available options: https://prettier.io/docs/en/options.html
+// Explicitly list all values to avoid surprising breaking changes that Prettier introduces from time to time
+// Defined for Prettier@2.8.7
+{
+  "$schema": "https://json.schemastore.org/prettierrc",
+  "printWidth": 100,                        // Specify the line length that the printer will wrap on
+  "tabWidth": 2,                            // Specify the number of spaces per indentation-level
+  "useTabs": false,                         // Indent lines with tabs instead of spaces
+  "semi": false,                            // Print semicolons at the ends of statements
+  "singleQuote": true,                      // Use single quotes instead of double quotes
+  "quoteProps": "as-needed",                // Change when properties in objects are quoted: 'as-needed' - Only add quotes around object properties where required
+  "jsxSingleQuote": true,                   // Use single quotes instead of double quotes in JSX
+  "trailingComma": "all",                   // Print trailing commas wherever possible in multi-line comma-separated syntactic structures: 'all' - railing commas wherever possible (including function parameters and calls)
+  "bracketSpacing": true,                   // Print spaces between brackets in object literals
+  "bracketSameLine": false,                 // Put the > of a multi-line HTML (HTML, JSX, Vue, Angular) element at the end of the last line instead of being alone on the next line
+  "arrowParens": "always",                  // Include parentheses around a sole arrow function parameter: 'always' - Always include parens
+  "requirePragma": false,                   // Prettier can restrict itself to only format files that contain a special comment, called a pragma, at the top of the file
+  "insertPragma": false,                    // Prettier can insert a special @format marker at the top of files specifying that the file has been formatted with Prettier
+  "proseWrap": "preserve",                  // Prettier handling wrapping in markdown text: 'preserve' - Do nothing, leave prose as-is
+  "htmlWhitespaceSensitivity": "css",       // Specify the global whitespace sensitivity for HTML, Vue, Angular, and Handlebars: 'css' - Respect the default value of CSS display property. For Handlebars treated same as strict
+  "vueIndentScriptAndStyle": false,         // Whether or not to indent the code inside <script> and <style> tags in Vue files
+  "endOfLine": "lf",                        // 'lf' - Line Feed only (\n), common on Linux and macOS as well as inside git repos
+  "embeddedLanguageFormatting": "off",      // Control whether Prettier formats quoted code embedded in the file: 'off' - Never automatically format embedded code
+  "singleAttributePerLine": true,           // Enforce single attribute per line in HTML, Vue and JSX
+  "overrides": []
+}

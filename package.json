@@ -1,0 +1,27 @@
+{
+  "name": "@westrem/prettier-config",
+  "version": "1.0.0",
+  "description": "Shared config for Prettier",
+  "main": "index.json5",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:westrem/prettier-config.git"
+  },
+  "homepage": "https://github.com/westrem/prettier-config#readme",
+  "engines": {
+    "node": ">=14"
+  },
+  "author": "Jan Jadud <dev@gojadud.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "prettier": "^2.8.7"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "prettier",
+    "config",
+    "formatting"
+  ]
+}
