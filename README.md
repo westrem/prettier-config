@@ -39,4 +39,19 @@ module.exports = {
 };
 ```
 
+----
+
+**Scripts**
+
+```
+// package.json
+{
+  "scripts": {
+    ...,
+    "lint:prettier": "./node_modules/.bin/prettier --check \"./src/**/*.(ts|tsx|scss|css|sass)\"",
+    "fix:prettier": "./node_modules/.bin/prettier --write \"./src/**/*.(ts|tsx|scss|css|sass)\""
+  }
+}
+```
+
 [More info on shared configurations](https://prettier.io/docs/en/configuration.html#sharing-configurations)
